@@ -1,0 +1,23 @@
+{
+    "name": "Add Layer to Map",
+    "platform": "HTML",
+    "version": "1.2.0",
+    "wabVersion": "1.2",
+    "author": "Softwhere Solutions",
+    "description": "Add Map Layer widget for WebApp Builder for Arcgis",
+    "copyright": "",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+        "inPanel": true,
+        "hasLocale": false,
+        "hasStyle": true,
+        "hasConfig": true,
+        "hasUIFile": true,
+        "hasSettingPage": true,
+        "hasSettingUIFile": true,
+        "hasSettingLocale": true,
+        "hasSettingStyle": true,
+        "IsController": false
+    }
+
+}

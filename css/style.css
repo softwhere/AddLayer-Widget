@@ -1,0 +1,12 @@
+.jimu-widget-addlayer tr.layer-row > td.layer-title {
+    font: normal 16px/normal Arial, Helvetica, sans-serif;
+    color: rgba(5, 5, 5, 1);
+}
+
+.jimu-widget-addlayer table.layer-list-table {
+    border-spacing: 10px;
+}
+
+.jimu-widget-addlayer .help-text {
+    color: silver;
+}

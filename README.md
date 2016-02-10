@@ -1,4 +1,4 @@
-# AddLayer-Widget 1.2
+# AddLayer-Widget
 The AddLayer Widget for ArcGIS Web AppBuilder allows users to add pre-defined map layers to the current map without having them to include them in the current web map. This provides an easy way to add ad-hoc layers to your web app.
 
 Unlike the [AddService Widget](https://geonet.esri.com/docs/DOC-6263 "AddService Widget") which requires the user the enter the url of the service, the AddLayer widget only allows users to display additional map layers that have been pre-defined by the site administrator.
@@ -15,6 +15,7 @@ To add this widget to your ArcGIS WebApp Builder,
 
 * download the zip file of the widget
 * unzip the contents into client\stemapp\widgets\AddLayer directory
+![Widget Folder](./help/AddLayerFolder.png)
 * edit the \client\stemapp\config.json and enter the AddLayer widget in the widgets entry
 
 Example:

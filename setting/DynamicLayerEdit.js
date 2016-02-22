@@ -173,12 +173,13 @@ define(
                 }
                 args.layerSetting = this;
                 args.nls = this.nls;
+                var layerindex = String(args.config.id); //treat layerIndex as string so simple table stores correctly
 
                 var hiddenLayer;
                 var isVisible = args.config.defaultVisibility;
                 if (this.config.hasOwnProperty('hidelayers')) {
                     hiddenLayer = this.config.hidelayers.split(',');
-                    if (array.indexOf(hiddenLayer, args.config.id) >= 0) {
+                    if (array.indexOf(hiddenLayer, layerindex) >= 0) {
                         isVisible = false;
                     } else {
                         isVisible = true;
@@ -188,7 +189,7 @@ define(
                 var rowData = {
                     name: (args.config && args.config.name) || '',
                     visible: isVisible,
-                    layerindex: args.config.id
+                    layerindex: layerindex
                 };
 
                 var result = this.sublayersTable.addRow(rowData);
